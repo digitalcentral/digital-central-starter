@@ -68,7 +68,6 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`,
       },
     },
-    `gatsby-plugin-sitemap`,
     // {
     //   resolve: `gatsby-plugin-canonical-urls`,
     //   options: {
