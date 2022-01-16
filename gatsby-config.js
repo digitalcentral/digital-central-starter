@@ -8,13 +8,6 @@ module.exports = {
     siteUrl: `https://digitalcentralstarter.gatsbyjs.io`,
   },
   plugins: [
-    `gatsby-plugin-mdx`,
-    `gatsby-plugin-image`,
-    `gatsby-plugin-postcss`,
-    `gatsby-plugin-remove-trailing-slashes`,
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-gatsby-cloud`,
     // {
     //   resolve: "gatsby-source-graphcms",
     //   options: {
@@ -74,5 +67,12 @@ module.exports = {
     //     siteUrl: `https://axieinfinity-companion.com`,
     //   },
     // },
+    `gatsby-plugin-mdx`,
+    `gatsby-plugin-image`,
+    `gatsby-plugin-postcss`,
+    `gatsby-plugin-remove-trailing-slashes`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-gatsby-cloud`,
   ],
 }
