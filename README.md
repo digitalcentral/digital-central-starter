@@ -6,12 +6,11 @@ Digital Central starter for Gatsby projects. See portfolio at [Digital Central](
 
 - [Gatsby](https://www.gatsbyjs.com/)
 - [Tailwind UI](https://tailwindui.com/)
-- [GraphCMS](https://graphcms.com)
 
 ## Installation
 
 ```
-git clone https://github.com/digitalcentral/digital-central-starter.git
+git clone https://github.com/digitalcentral/digital-central-starter.git <name>
 ```
 
 ```
@@ -27,6 +26,5 @@ yarn start
 .env
 
 ```
-GATSBY_GRAPHCMS_ENDPOINT=
 GATSBY_GTM_ID=
 ```
