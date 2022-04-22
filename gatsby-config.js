@@ -1,6 +1,7 @@
 require("dotenv").config()
 
 module.exports = {
+  trailingSlash: "never",
   siteMetadata: {
     title: `Digital Central Starter`,
     description: `Kick off a Gatsby project with this Digital Central starter, ships with best packages to get started fast.`,
@@ -8,15 +9,6 @@ module.exports = {
     siteUrl: `https://digitalcentralstarter.gatsbyjs.io`,
   },
   plugins: [
-    // {
-    //   resolve: "gatsby-source-graphcms",
-    //   options: {
-    //     endpoint: process.env.GATSBY_GRAPHCMS_ENDPOINT,
-    //     // buildMarkdownNodes: true,
-    //     // downloadLocalImages: true,
-    //     stages: ["PUBLISHED"],
-    //   },
-    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -67,10 +59,8 @@ module.exports = {
     //     siteUrl: `https://axieinfinity-companion.com`,
     //   },
     // },
-    `gatsby-plugin-mdx`,
     `gatsby-plugin-image`,
     `gatsby-plugin-postcss`,
-    `gatsby-plugin-remove-trailing-slashes`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-gatsby-cloud`,
