@@ -16,6 +16,7 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-plugin-sharp`,
       options: {
@@ -47,8 +48,8 @@ module.exports = {
         name: `digital-central-starter`,
         short_name: `DC Starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#ffffff`,
+        theme_color: `#ffffff`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`,
       },
@@ -61,7 +62,6 @@ module.exports = {
     // },
     `gatsby-plugin-image`,
     `gatsby-plugin-postcss`,
-    `gatsby-transformer-sharp`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-gatsby-cloud`,
   ],
